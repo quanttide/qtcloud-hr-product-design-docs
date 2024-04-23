@@ -302,7 +302,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -318,6 +320,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">详情</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -330,6 +340,16 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
 <h1>管理组织架构图<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
 <p>外部成员也要包括在内，用不同的颜色和内部成员区分。</p>
+<section id="id2">
+<h2>详情<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<p>外部成员在管理上组织只有有限的控制力，同样也是有限地授权。
+比如外部成员没有企业微信账号而是通过微信协作。</p>
+<p>在有外部成员的情况下。如何划分组织的边界？</p>
+<ul class="simple">
+<li><p>兼职是约束性的，兼职是我们内部组织的延伸。</p></li>
+<li><p>社区是非约束性的，我们对社区的定义是一个“国际组织”，可能有不同组织的人参与。</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -378,7 +398,20 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">详情</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
